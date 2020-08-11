@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2nd js</title>
+
+    <!-- external JavaScript file -->
+    <script src="js/ex_5.js"></script>
+
+</head>
+  <body>
+    JavaScript can change HTML attribute values. In this case JavaScript<br />
+    changes the value of the src (source) attribute of an image.<br />
+
+    <img id="myimg" src="asset/sad-emoji.jpg" style="width: 100px;" />
+    <br />
+
+    <button
+      onclick="changeImageToSmile()"
+    >
+      Smile
+    </button>
+
+    <button
+      onclick="changeImageToSad()"
+    >
+      Sad
+    </button>
+  </body>
+</html>
